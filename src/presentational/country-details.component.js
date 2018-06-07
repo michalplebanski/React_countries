@@ -1,6 +1,6 @@
 import React from "react";
 
-const CountryDetails = props => (
+const CountryDetails = (props) => (
     <div className="country-wrapper">
         <header>
             <img

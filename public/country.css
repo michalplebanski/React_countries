@@ -1,6 +1,7 @@
 #root {
     background: #eee;
-    height: 1000vh;
+    height: 100vh;
+    max-width: 100%;
 }
 
 .country-wrapper {
@@ -86,12 +87,24 @@ h2 {
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .single-country {
-    width: 26%;
-    height: 300px;
-    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 270px;
+    margin: 3vh 1vw;
+}
+
+.button {
+    min-width: 40%;
+    
 }
 
 .country-logo-wrapper {

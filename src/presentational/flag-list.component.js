@@ -14,6 +14,7 @@ const CountryFlagList = props => (
                         <CountryFlag country={country} />
                     </Link>
                     <button
+                        className="button"
                         onClick={props.deleteCountry.bind(null, country.id)}
                     >
                         DELETE
